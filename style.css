@@ -7,6 +7,7 @@
 :root {
     background-color: rgb(35, 66, 21);
     color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -76,15 +77,20 @@ a:visited {
     width: 70%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 
 .description-sign-up {
     height: 35%;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 2rem 3rem;
+}
+
+.description-sign-up p {
+    text-align: center;
+    padding: 3rem;
 }
 
 .sign-up {
@@ -104,13 +110,13 @@ a:visited {
 
 .validation-form button {
     background-color: black;
+    font-weight: 700;
     color: white;
     width: 20%;
     height: 20%;
     border-radius: 0.3rem;
 }
 
-.validation-form div {
-    position: absolute;
-    padding-top: 5%;
+.validation-form p {
+    padding-top: 1.5rem;
 }
